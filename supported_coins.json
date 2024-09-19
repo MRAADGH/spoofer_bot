@@ -1,0 +1,320 @@
+{
+    "result": 100,
+    "message": "Successful operation",
+    "data": {
+        "BTC": {
+            "symbol": "BTC",
+            "name": "Bitcoin",
+            "status": true,
+            "networkList": {
+                "Bitcoin": {
+                    "network": "Bitcoin",
+                    "name": "Bitcoin network",
+                    "minConfirm": 2,
+                    "withdrawFee": 3e-05,
+                    "withdrawMin": 4.5e-05,
+                    "depositMin": 0.0003,
+                    "staticFixedFee": 4e-06
+                }
+            }
+        },
+        "ETH": {
+            "symbol": "ETH",
+            "name": "Ethereum",
+            "status": true,
+            "networkList": {
+                "ERC20": {
+                    "network": "ERC20",
+                    "name": "Ethereum network",
+                    "minConfirm": 10,
+                    "withdrawFee": 0.0006,
+                    "withdrawMin": 0.0001,
+                    "depositMin": 0,
+                    "staticFixedFee": 0
+                }
+            }
+        },
+        "USDC": {
+            "symbol": "USDC",
+            "name": "USD Coin",
+            "status": true,
+            "networkList": {
+                "ERC20": {
+                    "network": "ERC20",
+                    "name": "Ethereum (ERC20)",
+                    "minConfirm": 10,
+                    "withdrawFee": 4,
+                    "withdrawMin": 5,
+                    "depositMin": 0,
+                    "staticFixedFee": 0
+                }
+            }
+        },
+        "TRX": {
+            "symbol": "TRX",
+            "name": "Tron",
+            "status": true,
+            "networkList": {
+                "TRC20": {
+                    "network": "TRC20",
+                    "name": "Tron network",
+                    "minConfirm": 10,
+                    "withdrawFee": 1,
+                    "withdrawMin": 0.0001,
+                    "depositMin": 0,
+                    "staticFixedFee": 0
+                }
+            }
+        },
+        "BNB": {
+            "symbol": "BNB",
+            "name": "BNB",
+            "status": true,
+            "networkList": {
+                "BEP20": {
+                    "network": "BEP20",
+                    "name": "BNB Smart Chain (Bep20)",
+                    "minConfirm": 15,
+                    "withdrawFee": 5e-05,
+                    "withdrawMin": 0.0004,
+                    "depositMin": 0,
+                    "staticFixedFee": 0
+                }
+            }
+        },
+        "BUSD": {
+            "symbol": "BUSD",
+            "name": "Binance USD",
+            "status": false,
+            "networkList": {}
+        },
+        "DOGE": {
+            "symbol": "DOGE",
+            "name": "Dogecoin",
+            "status": true,
+            "networkList": {
+                "Dogecoin": {
+                    "network": "Dogecoin",
+                    "name": "Dogecoin network",
+                    "minConfirm": 8,
+                    "withdrawFee": 0.01,
+                    "withdrawMin": 0.0001,
+                    "depositMin": 0,
+                    "staticFixedFee": 0
+                }
+            }
+        },
+        "LTC": {
+            "symbol": "LTC",
+            "name": "Litecoin",
+            "status": true,
+            "networkList": {
+                "Litecoin": {
+                    "network": "Litecoin",
+                    "name": "Litecoin network",
+                    "minConfirm": 3,
+                    "withdrawFee": 0.0001,
+                    "withdrawMin": 0.002,
+                    "depositMin": 0,
+                    "staticFixedFee": 0
+                }
+            }
+        },
+        "DGB": {
+            "symbol": "DGB",
+            "name": "DigiByte",
+            "status": true,
+            "networkList": {
+                "DigiByte": {
+                    "network": "DigiByte",
+                    "name": "Digibyte network",
+                    "minConfirm": 50,
+                    "withdrawFee": 0.005,
+                    "withdrawMin": 0.05,
+                    "depositMin": 0,
+                    "staticFixedFee": 0
+                }
+            }
+        },
+        "XMR": {
+            "symbol": "XMR",
+            "name": "Monero",
+            "status": true,
+            "networkList": {
+                "Monero": {
+                    "network": "Monero",
+                    "name": "Monero network",
+                    "minConfirm": 3,
+                    "withdrawFee": 6e-05,
+                    "withdrawMin": 0.0001,
+                    "depositMin": 0,
+                    "staticFixedFee": 0
+                }
+            }
+        },
+        "USDT": {
+            "symbol": "USDT",
+            "name": "Tether",
+            "status": true,
+            "networkList": {
+                "BEP20": {
+                    "network": "BEP20",
+                    "name": "BNB Smart Chain (Bep20)",
+                    "minConfirm": 15,
+                    "withdrawFee": 0.25,
+                    "withdrawMin": 0.01,
+                    "depositMin": 0,
+                    "staticFixedFee": 0
+                },
+                "ERC20": {
+                    "network": "ERC20",
+                    "name": "Ethereum (ERC20)",
+                    "minConfirm": 10,
+                    "withdrawFee": 4,
+                    "withdrawMin": 1,
+                    "depositMin": 0,
+                    "staticFixedFee": 0
+                },
+                "TRC20": {
+                    "network": "TRC20",
+                    "name": "Tron (TRC20)",
+                    "minConfirm": 10,
+                    "withdrawFee": 1,
+                    "withdrawMin": 0.01,
+                    "depositMin": 0,
+                    "staticFixedFee": 0.17
+                },
+                "Polygon": {
+                    "network": "Polygon",
+                    "name": "Polygon",
+                    "minConfirm": 100,
+                    "withdrawFee": 1,
+                    "withdrawMin": 0.01,
+                    "depositMin": 0,
+                    "staticFixedFee": 0
+                },
+                "Ton": {
+                    "network": "Ton",
+                    "name": "The Open Network (TON)",
+                    "minConfirm": 3,
+                    "withdrawFee": 1,
+                    "withdrawMin": 1,
+                    "depositMin": 0,
+                    "staticFixedFee": 0
+                }
+            }
+        },
+        "TON": {
+            "symbol": "TON",
+            "name": "Toncoin",
+            "status": true,
+            "networkList": {
+                "Ton": {
+                    "network": "Ton",
+                    "name": "The Open Network (TON)",
+                    "minConfirm": 3,
+                    "withdrawFee": 0.02,
+                    "withdrawMin": 0.05,
+                    "depositMin": 0,
+                    "staticFixedFee": 0
+                }
+            }
+        },
+        "POL": {
+            "symbol": "POL",
+            "name": "Polygon",
+            "status": true,
+            "networkList": {
+                "Polygon": {
+                    "network": "Polygon",
+                    "name": "Polygon",
+                    "minConfirm": 100,
+                    "withdrawFee": 0.02,
+                    "withdrawMin": 0.001,
+                    "depositMin": 0,
+                    "staticFixedFee": 0
+                }
+            }
+        },
+        "BCH": {
+            "symbol": "BCH",
+            "name": "Bitcoin Cash",
+            "status": true,
+            "networkList": {
+                "BitcoinCash": {
+                    "network": "BitcoinCash",
+                    "name": "BitcoinCash",
+                    "minConfirm": 3,
+                    "withdrawFee": 6e-05,
+                    "withdrawMin": 1e-05,
+                    "depositMin": 0,
+                    "staticFixedFee": 0
+                }
+            }
+        },
+        "SHIB": {
+            "symbol": "SHIB",
+            "name": "Shiba Inu",
+            "status": true,
+            "networkList": {
+                "BEP20": {
+                    "network": "BEP20",
+                    "name": "BNB Smart Chain (Bep20)",
+                    "minConfirm": 15,
+                    "withdrawFee": 32000,
+                    "withdrawMin": 10000,
+                    "depositMin": 0,
+                    "staticFixedFee": 0
+                }
+            }
+        },
+        "SOL": {
+            "symbol": "SOL",
+            "name": "Solana",
+            "status": true,
+            "networkList": {
+                "Solana": {
+                    "network": "Solana",
+                    "name": "Solana network",
+                    "minConfirm": 30,
+                    "withdrawFee": 0.0005,
+                    "withdrawMin": 0.01,
+                    "depositMin": 0,
+                    "staticFixedFee": 0
+                }
+            }
+        },
+        "NOT": {
+            "symbol": "NOT",
+            "name": "NotCoin",
+            "status": true,
+            "networkList": {
+                "Ton": {
+                    "network": "Ton",
+                    "name": "The Open Network (TON)",
+                    "minConfirm": 3,
+                    "withdrawFee": 55,
+                    "withdrawMin": 5,
+                    "depositMin": 0,
+                    "staticFixedFee": 0
+                }
+            }
+        },
+        "DOGS": {
+            "symbol": "DOGS",
+            "name": "Dogs",
+            "status": true,
+            "networkList": {
+                "Ton": {
+                    "network": "Ton",
+                    "name": "The Open Network (TON)",
+                    "minConfirm": 3,
+                    "withdrawFee": 400,
+                    "withdrawMin": 5,
+                    "depositMin": 0,
+                    "staticFixedFee": 0
+                }
+            }
+        }
+    }
+}

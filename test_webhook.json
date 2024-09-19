@@ -1,0 +1,22 @@
+{
+    "status": "Paid",
+    "trackId": "55658382",
+    "address": "0xE3D4e4d1a3C61Bd616000Cf69805E017A93835a1",
+    "txID": "0x5a7815bb6ecc2587dcb588da30d6daffd8b87f2dc0f0c90ab916885e82b96bbe",
+    "amount": "3",
+    "currency": "USDT",
+    "price": "2.94",
+    "payAmount": "3",
+    "payCurrency": "USDT",
+    "receivedAmount": "2.94",
+    "network": "ERC20",
+    "rate": "0",
+    "feePaidByPayer": 0,
+    "underPaidCover": 0,
+    "email": "",
+    "orderId": "41fd5fd0-8033-462f-8b3b-29f7adf87b35",
+    "description": "Static-wallet order for user 5748713709",
+    "date": "1726674965",
+    "payDate": "1726675042",
+    "type": "payment"
+}
