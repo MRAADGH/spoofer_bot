@@ -61,7 +61,7 @@ host_ssh = config('host_ssh')
 username_ssh = config('username_ssh')
 password_ssh = config('SSH_PASSWORD')
 
-adminlist = ['5748713709','7448447170']
+adminlist = ['8170314024','5706417405']
 
 tokenbot = config('BOT_TOKEN')
 
