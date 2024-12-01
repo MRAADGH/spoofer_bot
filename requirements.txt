@@ -11,3 +11,4 @@ six==1.16.0
 telebot==0.0.5
 Telethon==1.36.0
 python-decouple
+paramiko==3.3.1
