@@ -639,7 +639,7 @@ def erreur_callback(call):
     bot.delete_message(user_id, call.message.message_id)
 
     caption = """
-    <b>🚀 Bienvenue sur Test_BotSpoofer ® </b>
+    <b>🚀 Bienvenue sur Caller ID Spoofing ® </b>
 
 <b>⁉️ Voici une aide pour les problèmes les plus fréquents :</b>
 
@@ -651,7 +651,7 @@ def erreur_callback(call):
     declined_button = types.InlineKeyboardButton("3. Erreur Declined", callback_data="declined")
     timeout_button = types.InlineKeyboardButton("4. Erreur Request Timeout", callback_data="request_timeout")
     all_circuits_busy_button = types.InlineKeyboardButton("5. Erreur All Circuits Are Busy Now", callback_data="all_circuits_busy")
-    support_button = types.InlineKeyboardButton("📩 Support", url="https://t.me/Test_BotSenderID")
+    support_button = types.InlineKeyboardButton("📩 Support", url="https://t.me/SAGD112")
     return_button = types.InlineKeyboardButton("🔙 Retour", callback_data="return")
 
     markup.add(stun_dns_button, unauthorized_button)
@@ -743,7 +743,7 @@ def all_circuits_busy_callback(call):
     bot.delete_message(user_id, call.message.message_id)
     
     caption = """<b>5. Erreur "All Circuits Are Busy Now" (message audio en anglais) :</b>
-<i>Solution :</i> Contactez @Test_BotSenderID, car plusieurs raisons peuvent être à l'origine de ce problème et une assistance directe sera nécessaire.
+<i>Solution :</i> Contactez @SAGD112, car plusieurs raisons peuvent être à l'origine de ce problème et une assistance directe sera nécessaire.
 """
 
     markup = types.InlineKeyboardMarkup(row_width=1)
@@ -1697,11 +1697,11 @@ def main_menu(user_id):
     markup = types.InlineKeyboardMarkup(row_width=2)
     passwordsip = types.InlineKeyboardButton("🔒 Les accès SIP", callback_data="passwordsip")
     callerID = types.InlineKeyboardButton("⚙️ Changer le Caller ID", callback_data="callerID")
-    smsspoof = types.InlineKeyboardButton("💻 Spoofer avec licence", url="https://t.me/Test_BotSenderSMSBOT")
-    support = types.InlineKeyboardButton("🥂 Spoofer VIP", url="https://t.me/Test_BotSenderIDBOT")
+    smsspoof = types.InlineKeyboardButton("💻 Spoofer avec licence", url="https://t.me/SAGD112")
+    support = types.InlineKeyboardButton("🥂 Spoofer VIP", url="https://t.me/SAGD112")
     accountsettings = types.InlineKeyboardButton("👤 Mon compte", callback_data="accountsettings")
 
-    caption = f""" <b>🚀 Bienvenue sur Test_BotSpoofer ® </b>
+    caption = f""" <b>🚀 Bienvenue sur Caller ID Spoofing ® </b>
 
 <b>⚠️ <strong>Notre priorité ? votre satisfaction !!!</strong></b>
 
